@@ -1,0 +1,32 @@
+{
+    "configurable_preferences": [
+        {
+            "key": "title",
+            "label": "SmartOpen Title",
+            "default_value": "Welcome to SmartOpen",
+            "data_type": "string",
+            "editor_role": "content_editor"
+        },
+        {
+            "key": "redirect_url",
+            "label": "SmartOpen Url",
+            "default_value": "https://openanytime.mainstreetcu.ca",
+            "data_type": "string",
+            "editor_role": "content_editor"
+        },
+        {
+            "key": "message",
+            "label": "SmartOpen Message",
+            "default_value": "Please click on the button to start.",
+            "data_type": "string",
+            "editor_role": "content_editor"
+        }
+    ],
+    "start_template": "index.hbs",
+    "name": "SmartOpen Plugin",
+    "description": "Mobetize SmartOpen Plugin",
+    "vendor_id": "mobetize-com",
+    "id": "mobetize-com/smartopen-plugin",
+    "type": "redirect",
+    "version": "1.0.2"
+}

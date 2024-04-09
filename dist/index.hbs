@@ -1,0 +1,12 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<div class="smartopen_plugin">
+    <h1 class="so-title">{{title}}</h1>
+    <h2 class="so-message">{{message}}</h2>
+    <p>
+        <button class="btn btn-primary" onclick="window.open('{{redirect_url}}/signin?auth_code={{auth_code}}','_self')">SmartOpen Dashboard</button>
+    </p>
+    <p>
+        <button class="btn btn-primary" onclick="window.open('{{redirect_url}}/signin?auth_code={{auth_code}}&product_id=b-sav-010','_self')">SmartOpen Savings</button>
+        <button class="btn btn-primary" onclick="window.open('{{redirect_url}}/signin?auth_code={{auth_code}}&product_id=b-chq-010','_self')">SmartOpen Chequing</button>
+    </p>
+</div>
