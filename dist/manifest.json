@@ -3,7 +3,7 @@
         {
             "key": "title",
             "label": "SmartOpen Title",
-            "default_value": "Welcome to SmartOpen",
+            "default_value": "Welcome to Open Anytime",
             "data_type": "string",
             "editor_role": "content_editor"
         },
